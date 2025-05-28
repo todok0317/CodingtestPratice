@@ -37,4 +37,6 @@ public class ClothesCombinations {
         // "아무것도 입지 않는 경우"를 제외하기 위해 -1을 해줌
         return answer - 1;
     }
+
+    //완료
 }
