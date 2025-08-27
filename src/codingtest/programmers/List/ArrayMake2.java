@@ -3,6 +3,18 @@ package codingtest.programmers.List;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 문제 설명:
+ * 정수 l과 r이 매개변수로 주어집니다.
+ * l 이상 r 이하의 정수 중에서
+ * 숫자가 '0'과 '5'로만 이루어진 수들을 오름차순으로 담은 배열을 반환하세요.
+ * 만약 그러한 수가 없다면 [-1]을 반환합니다.
+ *
+ * 입출력 예:
+ * l = 5, r = 555 → [5, 50, 55, 500, 505, 550, 555]
+ * l = 10, r = 20 → [-1]
+ */
+
 class ArrayMake2 {
     public int[] solution(int l, int r) {
 
